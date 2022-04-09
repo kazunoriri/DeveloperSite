@@ -7,5 +7,9 @@
 
 [privacy policy](/privacyPolicy/AbsolutePitchChecker.md)
 
+## 10%ずつupするメトロノーム
 
+公開後リンク先Up予定
+
+[privacy policy](/privacyPolicy/metronome.md)
 
