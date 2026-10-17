@@ -5,7 +5,7 @@ title: 絶対音感チェッカー プライバシーポリシー | Absolute Pit
 
 # 絶対音感チェッカー / Absolute Pitch Checker — Privacy Policy
 
-**最終更新 / Last updated / 最后更新：2026-10-13**
+**最終更新 / Last updated / 最后更新：2026-10-18**
 
 ## 日本語
 
@@ -30,10 +30,13 @@ iPhone版では、Google Mobile Ads SDK（AdMob）を利用してバナー広告
 
 AppleのApp Tracking Transparency（ATT）による許可確認は、対応するバージョン・端末で必要に応じて表示されます。トラッキングを許可しない場合も、広告が表示されることがありますが、Google Mobile Ads SDKは広告リクエストにIDFAを含めません。ATTの選択はiOSの設定から変更できます。UMPでの同意とATTによる許可は別の仕組みです。
 
-### 5. 外部送信
+### 5. 広告非表示の買い切り購入（バージョン2.0.0以降）
+iPhone版のバージョン2.0.0以降では、広告を非表示にする非消耗型のアプリ内購入を提供します。購入・決済・購入権利の復元にはAppleのApp StoreおよびStoreKitを利用します。アプリはStoreKitの署名済み取引情報を検証し、有効な購入権利が確認されると広告バナーを停止します。購入済みの状態で次回起動した場合、権利の確認が終わるまでは広告機能を停止し、権利が確認できればGoogle Mobile Ads SDKとUMPを起動しません。支払い情報はAppleが管理し、開発者は受け取りません。
+
+### 6. 外部送信
 広告を表示する場合、本アプリはGoogleなどの広告配信システムと通信します。取り扱われる情報については第3項をご参照ください。学習履歴を開発者が管理するサーバーに送信することはありません。
 
-### 6. 改定
+### 7. 改定
 法令、広告SDKまたは本アプリの機能の変更に応じて、本ポリシーを更新することがあります。重大な変更については、必要な方法でお知らせします。
 
 制定：2022年1月16日  
@@ -64,10 +67,13 @@ In supported app versions, Google User Messaging Platform (UMP) may present an a
 
 In supported versions and on eligible devices, Apple's App Tracking Transparency (ATT) permission may also be requested. If tracking permission is denied, ads may still be shown, but Google Mobile Ads SDK does not include IDFA in ad requests. You can change ATT permission in iOS Settings. UMP consent and ATT permission are separate choices.
 
-### 5. Data transmission
+### 5. One-time ad removal purchase (version 2.0.0 and later)
+On iPhone, version 2.0.0 and later offer a non-consumable in-app purchase to remove ads. Purchases, payment processing and restoration of purchase entitlements use Apple's App Store and StoreKit. The app verifies StoreKit-signed transaction information and stops showing banner ads when a valid purchase entitlement is confirmed. On subsequent launches by a purchaser, advertising remains disabled while the entitlement is checked. Once verified, Google Mobile Ads SDK and UMP are not initialized. Apple processes payment details; the Developer does not receive them.
+
+### 6. Data transmission
 When ads are shown, the app communicates with Google's advertising systems and potentially their partners as described in Section 3. Practice history is not sent to a server operated by the Developer.
 
-### 6. Changes to this policy
+### 7. Changes to this policy
 We may update this policy as laws, SDKs or app functionality change and provide notice when required.
 
 Effective: January 16, 2022  
@@ -98,10 +104,13 @@ iPhone 版使用 Google Mobile Ads SDK（AdMob）展示横幅广告；iPad 版�
 
 在支持的版本及设备上，应用也可能请求 Apple 的 App Tracking Transparency（ATT）权限。拒绝跟踪后，广告仍可能显示，但 Google Mobile Ads SDK 不会在广告请求中包含 IDFA。用户可在 iOS“设置”中修改 ATT 权限。UMP 同意与 ATT 权限属于不同的选择。
 
-### 5. 对外传输
+### 5. 一次性购买移除广告（2.0.0 及更高版本）
+iPhone 版从 2.0.0 版本起提供非消耗型应用内购买，可一次性移除广告。购买、支付处理及恢复购买权益通过 Apple App Store 和 StoreKit 完成。应用会验证 StoreKit 提供的已签名交易信息，确认有效购买权益后停止展示横幅广告。已购买用户再次启动应用时，在完成权益核验前不会启用广告功能；确认权益后，不会初始化 Google Mobile Ads SDK 和 UMP。支付信息由 Apple 处理，开发者不会获取支付资料。
+
+### 6. 对外传输
 展示广告时，本应用会与 Google 广告系统及可能的广告合作伙伴通信，相关处理情况见第 3 节。练习记录不会发送到开发者运营的服务器。
 
-### 6. 政策更新
+### 7. 政策更新
 如法律、SDK 或应用功能发生变化，我们可能更新本政策，并在需要时提供通知。
 
 制定日期：2022年1月16日  
